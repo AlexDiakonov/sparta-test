@@ -1,0 +1,14 @@
+.btn_style {
+  padding: 10px 20px;
+  background-color: #0095ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #0077cc;
+  }
+}
