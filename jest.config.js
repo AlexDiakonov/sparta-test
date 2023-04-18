@@ -28,12 +28,5 @@ module.exports = {
     ".+\\.(css|styl|less|sass|scss|png|jpg|svg|ttf|woff|woff2)$":
       "jest-transform-stub",
   },
-  // Add this Babel configuration
-  transform: {
-    "^.+\\.(js|jsx|ts|tsx)$": "babel-jest",
-  },
-  // Add this Babel configuration
-  transformIgnorePatterns: ["/node_modules/", "\\.pnp\\.[^\\/]+$"],
-  // Add this Babel configuration
   moduleDirectories: ["node_modules"],
 };
